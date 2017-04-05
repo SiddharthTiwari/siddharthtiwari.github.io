@@ -2236,7 +2236,7 @@ Menu.prototype =
 {
 	init: function()
 	{
-		this._loadImg("/img/leo-cheron.jpg");
+		this._loadImg("/img/siddharth-tiwari.jpg");
 		// this.$.trigger("change", [this._defaultImg]);
 
 		$('a[disabled="disabled"]').on(MouseEvent.CLICK, function(e) {e.preventDefault()});
@@ -2322,7 +2322,7 @@ Menu.prototype =
 		if(!this._active)
 		{
 			this._clearActive(true);
-			this._loadImg("/img/leo-cheron.jpg");
+			this._loadImg("/img/siddharth-tiwari.jpg");
 		}
 	},
 
