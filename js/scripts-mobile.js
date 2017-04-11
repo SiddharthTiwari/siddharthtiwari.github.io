@@ -4,6 +4,7 @@
 // dependencies
 var $ = require("lib/zepto/zepto");
 var Ease = require("lib/zepto/Ease");
+
 var Event = require("lib/anonymous/events/Event");
 // var Stats = require("lib/stats/Stats");
 
@@ -2322,7 +2323,7 @@ Menu.prototype =
 		if(!this._active)
 		{
 			this._clearActive(true);
-			this._loadImg("/img/siddharth-tiwari.jpg");
+			this._loadImg("/img/.jpg");
 		}
 	},
 
